@@ -1,0 +1,15 @@
+{
+    "require": {
+        "afa/database": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/andyfarkas/Afa.Database.git"
+        }
+    ],
+    "name": "afa/sqlrelay",
+    "autoload": {
+        "psr-4": {"": "src/"}
+    }
+}
